@@ -1,0 +1,757 @@
+
+.shake-bottom:hover {
+	animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
+	color: black;
+}
+
+@keyframes shake-bottom {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+  }
+  10% {
+    transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
+
+
+
+
+.text-shadow-pop-bl {
+	animation: text-shadow-pop-bl 1.5s infinite alternate both;
+}
+
+@keyframes text-shadow-pop-bl {
+  0% {
+    text-shadow: 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px 1px #FFFFFF, -2px 2px #FFFFFF, -3px 3px #FFFFFF, -4px 4px #FFFFFF, -5px 5px #FFFFFF, -6px 6px #FFFFFF, -7px 7px #FFFFFF, -8px 8px #FFFFFF;
+    transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
+
+
+@font-face {
+	font-family: bellaz;
+	src: url(fontlogo/font/prestage.otf);
+}
+
+@font-face {
+	font-family: bellazdos;
+	src: url(fontlogo/font/prestageItalic.otf);
+}
+
+@font-face {
+	font-family: bellaztres;
+	src: url(fontlogo/font/prestageOutlineItalic.otf);
+}
+
+@font-face {
+	font-family: bellazcuatro;
+	src: url(anna/paragraFont.otf);
+}
+
+
+
+
+h1 {
+	font-family: bellaz;
+	font-size: 70px;
+	color: black;
+}
+
+#navmenu a {
+	color: black;
+}
+
+#navmenu a:hover {
+	color: black;
+}
+
+#typewriter h2 {
+	font-family: bellazdos;
+	font-size: 80px;
+	color: black;
+}
+
+#spotifybutt {
+	background-color: #1DB954;
+	border-radius: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#countdown {
+	font-family: bellazdos;
+	font-size: 80px;
+}
+
+#lineup h3 {
+	font-family: bellazdos;
+	font-size: 30px;
+}
+
+#lineup h3:hover {
+	text-decoration: underline;
+}
+
+#subnavprogram a {
+	font-family: bellaz;
+	font-size: 30px;
+	color: black;
+}
+
+@media screen and (max-width: 600px) {
+	#subnavprogram a {
+		font-size: 20px;
+	}
+}
+
+.uk-countdown-number {
+	font-family: bellaz;
+	font-size: 130px;
+}
+
+.uk-countdown-label {
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#datemain {
+	font-family: bellaz;
+	color: black;
+	font-size: 40px;
+}
+
+#carouselineup h4 {
+	font-family: bellazdos;
+	font-size: 70px;
+	color: black;
+}
+
+#carouselineup h5 {
+	font-family: bellazdos;
+	font-size: 55px;
+	color: black;
+}
+
+#carouselineup img {
+	border-radius: 5px 5px 0px 0px;
+}
+
+#navmenu a {
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#collabs h2 {
+	font-family: bellazdos;
+	font-size: 40px;
+}
+
+#collabs p {
+	font-family: bellazcuatro;
+}
+
+#offcanvasmenu a {
+	font-family: bellaz;
+	font-size: 30px;
+	color: white;
+}
+
+#program h4 {
+	font-family: bellazdos;
+	color: black;
+	font-size: 75px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#infopc h2 {
+	font-family: bellazdos;
+	color: black;
+	font-size: 60px;
+}
+
+#infomobile h2 {
+	font-family: bellazdos;
+	color: black;
+	font-size: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+	#freccecarousel {
+		margin-bottom: 5vh;
+	}
+}
+
+
+
+
+.text-shadow-pop-bl-menunav:hover {
+	animation: text-shadow-pop-bl 0.6s both;
+}
+
+@keyframes text-shadow-pop-bl-menunav {
+  0% {
+    text-shadow: 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF, 0 0 #FFFFFF;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px 1px #FFFFFF, -2px 2px #FFFFFF, -3px 3px #FFFFFF, -4px 4px #FFFFFF, -5px 5px #FFFFFF, -6px 6px #FFFFFF, -7px 7px #FFFFFF, -8px 8px #FFFFFF;
+    transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
+
+
+.jello-horizontal:hover {
+	animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+
+body {
+	background-image: url(anna/sfondo.png);
+	background-position: top;
+}
+
+#maps {
+	border-style: solid;
+	border-width: thick;
+	border-color: white;
+}
+
+#apollokidsbio, #capibarabio, #widebluebio, #bangbassbio, #carpabio,
+#lalbatrobio, #steelwheelsbio, #resistancebio, #underwoodbio, #birdeebio p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#logonav {
+	margin-left: 0.1vw;
+	margin-top: 8vh;
+}
+
+@media screen and (max-height: 650px) {
+	#logonav {
+		margin-left: 0vw;
+		margin-top: 4vh;
+	}
+}
+
+@media screen and (min-height: 650px) {
+	#logonav {
+		margin-left: 0vw;
+		margin-top: 3vh;
+	}
+}
+
+
+
+
+.scale-in-center {
+	animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+.tracking-in-expand {
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+@media screen and (min-height: 1336px) {
+	#program h4 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-height: 960px) {
+	#countdown {
+		font-size: 70px;
+	}
+}
+
+
+
+
+/* descrizioni programma */
+/*giovedi*/
+/*torneigio*/
+#torneigio p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#torneigio .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#torneigio .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#torneigio .maintitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 30px;
+}
+
+#torneigio .smalltitle {
+	font-family: bellaz;
+	color: rgb(0, 155, 170);
+	font-size: 25px;
+}
+
+
+/*venerdi*/
+/*bambiniven*/
+#bambiniven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#bambiniven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#bambiniven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#bambiniven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#bambiniven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+/*corteven*/
+#corteven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#corteven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#corteven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#corteven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#corteven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+
+/*torneiven*/
+#torneiven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#torneiven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#torneiven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#torneiven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#torneiven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+
+/*prodven*/
+#prodven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#prodven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#prodven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#prodven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#prodven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+
+/*spettacoliven*/
+#spettacoliven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#spettacoliven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#spettacoliven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#spettacoliven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#spettacoliven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+
+/*mostrven*/
+#mostreven p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#mostreven .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#mostreven .orario {
+	color: rgb(185, 57, 150);
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#mostreven .maintitle {
+	color: hotpink;
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#mostreven .smalltitle {
+	font-family: bellaz;
+	color: rgb(185, 57, 150);
+	font-size: 25px;
+}
+
+
+
+
+/*sabato*/
+/*torneisab*/
+#torneisab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#torneisab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#torneisab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#torneisab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#torneisab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
+
+
+/*spettacolisab*/
+#spettacolisab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#spettacolisab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#spettacolisab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#spettacolisab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#spettacolisab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
+
+
+/*bambinisab*/
+#bambinisab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#bambinisab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#bambinisab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#bambinisab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#bambinisab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
+
+
+/*mostresab*/
+#mostresab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#mostresab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#mostresab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#mostresab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#mostresab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
+
+
+/*cortesab*/
+#cortesab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#cortesab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#cortesab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#cortesab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#cortesab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
+
+
+/*prodsab*/
+#prodsab p {
+	font-family: bellazcuatro;
+	color: black;
+}
+
+#prodsab .zona {
+	font-family: bellazdos;
+	color: black;
+	font-size: 20px;
+}
+
+#prodsab .orario {
+	color: hotpink;
+	font-family: bellazdos;
+	font-size: 20px;
+}
+
+#prodsab .maintitle {
+	color: rgb(0, 155, 170);
+	font-family: bellaz;
+	font-size: 30px;
+}
+
+#prodsab .smalltitle {
+	color: hotpink;
+	font-size: 25px;
+	font-family: bellaz;
+}
